@@ -1,0 +1,18 @@
+body.light {
+  background-color: white !important;
+  color: black !important;
+}
+
+body.dark {
+  background-color: rgb(44, 44, 44) !important;
+  color: white !important;
+}
+
+.navbar-light.bg-light.dark {
+  background-color: #333 !important;
+  color: white !important;
+}
+
+.navbar-light.bg-light.dark .navbar-nav .nav-link {
+  color: white !important;
+}
