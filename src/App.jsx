@@ -41,7 +41,7 @@ function App() {
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <Router>
+        <Router basename="/SPANotesApp">
           <Navbar
             isAuth={isAuth}
             setAuth={setIsAuth}
